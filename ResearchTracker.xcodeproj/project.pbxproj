@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001 /* ResearchTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001 /* ResearchTrackerApp.swift */; };
+		A002 /* ContentView.swift in Sources */        = {isa = PBXBuildFile; fileRef = B002 /* ContentView.swift */; };
+		A003 /* ToDo.swift in Sources */               = {isa = PBXBuildFile; fileRef = B003 /* ToDo.swift */; };
+		A004 /* ToDoData.swift in Sources */           = {isa = PBXBuildFile; fileRef = B004 /* ToDoData.swift */; };
+		A005 /* ToDoViewModel.swift in Sources */      = {isa = PBXBuildFile; fileRef = B005 /* ToDoViewModel.swift */; };
+		A006 /* ToDoRowView.swift in Sources */        = {isa = PBXBuildFile; fileRef = B006 /* ToDoRowView.swift */; };
+		A007 /* SummaryCardView.swift in Sources */    = {isa = PBXBuildFile; fileRef = B007 /* SummaryCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B001 /* ResearchTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchTrackerApp.swift; sourceTree = "<group>"; };
+		B002 /* ContentView.swift */        = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift;        sourceTree = "<group>"; };
+		B003 /* ToDo.swift */               = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift;               sourceTree = "<group>"; };
+		B004 /* ToDoData.swift */           = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoData.swift;           sourceTree = "<group>"; };
+		B005 /* ToDoViewModel.swift */      = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift;      sourceTree = "<group>"; };
+		B006 /* ToDoRowView.swift */        = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRowView.swift;        sourceTree = "<group>"; };
+		B007 /* SummaryCardView.swift */    = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCardView.swift;    sourceTree = "<group>"; };
+		C001 /* ResearchTracker.app */      = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResearchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D001 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E000 = {
+			isa = PBXGroup;
+			children = (
+				E001 /* ResearchTracker */,
+				E002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E001 /* ResearchTracker */ = {
+			isa = PBXGroup;
+			children = (
+				B001 /* ResearchTrackerApp.swift */,
+				B002 /* ContentView.swift */,
+				B003 /* ToDo.swift */,
+				B004 /* ToDoData.swift */,
+				B005 /* ToDoViewModel.swift */,
+				B006 /* ToDoRowView.swift */,
+				B007 /* SummaryCardView.swift */,
+			);
+			path = ResearchTracker;
+			sourceTree = "<group>";
+		};
+		E002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C001 /* ResearchTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F001 /* ResearchTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G002 /* Build configuration list for PBXNativeTarget "ResearchTracker" */;
+			buildPhases = (
+				F002 /* Sources */,
+				D001 /* Frameworks */,
+				F003 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ResearchTracker;
+			productName = ResearchTracker;
+			productReference = C001 /* ResearchTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G001 /* Build configuration list for PBXProject "ResearchTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E000;
+			productRefGroup = E002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F001 /* ResearchTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F003 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F002 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001 /* ResearchTrackerApp.swift in Sources */,
+				A002 /* ContentView.swift in Sources */,
+				A003 /* ToDo.swift in Sources */,
+				A004 /* ToDoData.swift in Sources */,
+				A005 /* ToDoViewModel.swift in Sources */,
+				A006 /* ToDoRowView.swift in Sources */,
+				A007 /* SummaryCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		G005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abccomputers.ResearchTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		G006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abccomputers.ResearchTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G001 /* Build configuration list for PBXProject "ResearchTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G003 /* Debug */,
+				G004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G002 /* Build configuration list for PBXNativeTarget "ResearchTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G005 /* Debug */,
+				G006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = F000 /* Project object */;
+}
